@@ -1,0 +1,13 @@
+interactions\EntryTheApp.class
+enums\data\SessionVariables.class
+userinterfaces\StartPage.class
+userinterfaces\UserProfileUI.class
+enums\environment\UserType.class
+util\environment\EnvironmentDataHandler.class
+userinterfaces\LoginUI.class
+util\UserUtil.class
+interactions\StartSession.class
+util\environment\EnvironmentConf.class
+exceptions\UserNotFoundInDataException.class
+task\Login.class
+model\User.class

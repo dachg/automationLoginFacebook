@@ -1,0 +1,19 @@
+-------------------------------------------------------------------------------
+Test set: runner.TestRunner
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 30.677 s <<< FAILURE! - in runner.TestRunner
+Login to Activo.Usuario inicia sesión correctamente  Time elapsed: 18.065 s  <<< ERROR!
+net.thucydides.core.webdriver.DriverConfigurationError: Could not instantiate class org.openqa.selenium.chrome.ChromeDriver
+Caused by: net.thucydides.core.webdriver.DriverConfigurationError: 
+WebDriver was unable to create a new instance of type class org.openqa.selenium.chrome.ChromeDriver
+WebDriver reported the following message: Unable to establish websocket connection to http://localhost:57345/devtools/browser/906ed7ba-bc02-4f5d-b2c7-d003de61a12f
+Build info: version: '4.7.1', revision: 'c6795baf1a3'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_111'
+Driver info: driver.version: ChromeDriver
+See below for more details.
+Caused by: org.openqa.selenium.remote.http.ConnectionFailedException: 
+Unable to establish websocket connection to http://localhost:57345/devtools/browser/906ed7ba-bc02-4f5d-b2c7-d003de61a12f
+Build info: version: '4.7.1', revision: 'c6795baf1a3'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_111'
+Driver info: driver.version: ChromeDriver
+

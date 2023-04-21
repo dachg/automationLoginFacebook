@@ -1,0 +1,3 @@
+stepdefinitions\authentication\AuthenticationStepDefinition.class
+runner\TestRunner.class
+stepdefinitions\ParameterDefinitions.class
